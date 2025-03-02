@@ -1,0 +1,59 @@
+.popmenu-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+}
+[role='popmenu'] {
+	  position: absolute;
+    display: block;
+    min-width: 6em;
+    max-width: 13em;
+    padding: .25em 0;
+    margin: .3em;
+    font-family: inherit;
+    font-size: inherit;
+    list-style-type: none;
+    background: #fff;
+    border: 1px solid #bebebe;
+    border-radius: .2em;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+[role='popmenu'] li {
+	  position: relative;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: .2em .5em;
+    color: #2f2f2f;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #fff;
+     font-size:0.8rem;
+}
+[role='popmenu'] hr {
+    border: 0;
+     height:1px; 
+     background:#dedede; 
+     margin:5px 10px;
+     box-shadow: 2px 2px 1px 0px  #bcbcbc'
+}
+.popmenu-hover {
+	background-color: #2980b9 !important;
+	color: #fff !important;	
+  -webkit-transform: translateX(2%);
+  -ms-transform: translateX(2%);
+  -o-transform: translateX(2%);
+  transform: translateX(2%);
+}
+.fa {
+  color: #2980b9;
+}
+.popmenu-hover .fa {
+  color: #999;
+}
