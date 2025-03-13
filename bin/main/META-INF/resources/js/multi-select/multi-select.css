@@ -1,0 +1,64 @@
+.multi-select-container {
+	display: inline-block;
+	position:relative;
+	width:100%;
+}
+.multi-select-menu {
+	position:absolute;
+	left:0;
+	top:0.9rem;
+	float:left;
+	min-width:100%;
+	background:#fff;
+	margin:1em 0;
+	padding:0.4em 10px;
+	border:1px solid #aaa;
+	box-shadow:0 1px 3px rgba(0,0,0,0.2);
+	z-index:1;
+	display:none;
+}
+.multi-select-menuitems {
+	position: relative;
+}
+.multi-select-menuitem {
+	width: max-content;
+	display: block;
+}
+.multi-select-menu input {
+	margin-right:0.3em;
+	vertical-align:0.1em;
+}
+.multi-select-button {
+	display: inline-block;
+	font-size:0.875rem;
+	font-weight:400;
+	padding:0.2em 0.6em;
+	max-width:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	height:1.8rem;
+	text-overflow: ellipsis;
+	vertical-align:-0.5em;
+	background-color:#fff;
+	border:1px solid #E7E7ED;
+	border-radius:4px;
+	box-shadow:0 1px 3px rgba(0,0,0,0.2);
+	cursor:default;
+	width:100%;
+}
+.multi-select-button:after {
+	content:"";
+	display: inline-block;
+	width:0;
+	height:0;
+	border-style:solid;
+	border-width:0.4em 0.4em 0 0.4em;
+	border-color:#999 transparent transparent transparent;
+	margin-left:0.4em;
+	vertical-align:0.1em;
+}
+.multi-select-container--open .multi-select-menu {display:block; }
+.multi-select-container--open .multi-select-button:after {
+	border-width:0 0.4em 0.4em 0.4em;
+	border-color:transparent transparent #999 transparent;
+}
