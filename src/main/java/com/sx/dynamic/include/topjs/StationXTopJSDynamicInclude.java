@@ -27,6 +27,8 @@ public class StationXTopJSDynamicInclude extends BaseDynamicInclude {
 		PrintWriter printWriter = httpServletResponse.getWriter();
 		
 		String content = "";
+		content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/css/atlas-var.css\">";
+		//content += "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@clayui/css/lib/css/atlas.css\">";
 		//String content = "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/mustache/mustache.min.js\" async ></script>";
 		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/jquery/confirm/jquery-confirm.min.js\" async ></script>";
 		
@@ -43,7 +45,6 @@ public class StationXTopJSDynamicInclude extends BaseDynamicInclude {
 		
 		
 		/*
-		content += "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@clayui/css/lib/css/atlas.css\">";
 		content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/fancy-file-uploader/jquery.ui.widget.js\"></script>";
 		content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/js/fancy-file-uploader/fancy_fileupload.css\">";
 		content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/fancy-file-uploader/jquery.fileupload.js\"></script>";
