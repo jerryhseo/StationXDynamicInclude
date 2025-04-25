@@ -28,6 +28,8 @@ public class StationXTopJSDynamicInclude extends BaseDynamicInclude {
 		
 		String content = "";
 		content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/css/atlas-var.css\">";
+		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/jquery/dateTimePicker/jquery.datetimepicker.full.min.js\"></script>";
+		//content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/css/jquery/dateTimePicker/jquery.datetimepicker.min.css\">";
 		//content += "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@clayui/css/lib/css/atlas.css\">";
 		//String content = "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/mustache/mustache.min.js\" async ></script>";
 		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/jquery/confirm/jquery-confirm.min.js\" async ></script>";
@@ -37,8 +39,6 @@ public class StationXTopJSDynamicInclude extends BaseDynamicInclude {
 		//content += "<script charset=\"utf-8\" src=\"https://code.jquery.com/ui/1.13.1/jquery-ui.js\"></script>";
 		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/station-x.js\" ></script>";
 		//content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/css/station-x.css\">";
-		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/jquery/dateTimePicker/jquery.datetimepicker.full.min.js\"></script>";
-		//content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/css/jquery/dateTimePicker/jquery.datetimepicker.min.css\">";
 		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/lodash.js\"></script>";
 		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/zTree/js/jquery.ztree.all.js\"></script>";
 		//content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/js/zTree/css/zTreeStyle/zTreeStyle.css\">";
