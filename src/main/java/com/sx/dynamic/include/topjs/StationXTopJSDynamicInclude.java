@@ -27,10 +27,10 @@ public class StationXTopJSDynamicInclude extends BaseDynamicInclude {
 		PrintWriter printWriter = httpServletResponse.getWriter();
 		
 		String content = "";
-		content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/css/atlas-var.css\">";
+		//content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/css/atlas-var.css\">";
 		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/jquery/dateTimePicker/jquery.datetimepicker.full.min.js\"></script>";
 		//content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/css/jquery/dateTimePicker/jquery.datetimepicker.min.css\">";
-		//content += "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@clayui/css/lib/css/atlas.css\">";
+		content += "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@clayui/css/lib/css/atlas.css\">";
 		//String content = "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/mustache/mustache.min.js\" async ></script>";
 		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/jquery/confirm/jquery-confirm.min.js\" async ></script>";
 		
@@ -59,9 +59,9 @@ public class StationXTopJSDynamicInclude extends BaseDynamicInclude {
 		//content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/js/simple-pagenation/simplePagination.css\">";
 		content += "<script src=\"//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js\"></script>";
 		
-		content += "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js\"></script>";
-		content += "<script src=\"https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js\"></script>";
-		content += "<script src=\"https://cdn.jsdelivr.net/npm/jspdf-html2canvas@latest/dist/jspdf-html2canvas.min.js\"></script>";
+		//content += "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js\"></script>";
+		//content += "<script src=\"https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js\"></script>";
+		//content += "<script src=\"https://cdn.jsdelivr.net/npm/jspdf-html2canvas@latest/dist/jspdf-html2canvas.min.js\"></script>";
 		
 		printWriter.println(content);
 		
