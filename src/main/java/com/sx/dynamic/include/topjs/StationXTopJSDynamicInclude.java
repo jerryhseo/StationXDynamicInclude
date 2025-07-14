@@ -30,7 +30,7 @@ public class StationXTopJSDynamicInclude extends BaseDynamicInclude {
 		//content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/css/atlas-var.css\">";
 		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/jquery/dateTimePicker/jquery.datetimepicker.full.min.js\"></script>";
 		//content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/css/jquery/dateTimePicker/jquery.datetimepicker.min.css\">";
-		content += "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@clayui/css/lib/css/atlas.css\">";
+		//content += "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@clayui/css/lib/css/atlas.css\">";
 		//String content = "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/mustache/mustache.min.js\" async ></script>";
 		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/jquery/confirm/jquery-confirm.min.js\" async ></script>";
 		
