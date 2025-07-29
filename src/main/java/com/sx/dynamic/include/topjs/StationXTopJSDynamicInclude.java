@@ -32,11 +32,11 @@ public class StationXTopJSDynamicInclude extends BaseDynamicInclude {
 		//content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/css/jquery/dateTimePicker/jquery.datetimepicker.min.css\">";
 		//content += "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@clayui/css/lib/css/atlas.css\">";
 		//String content = "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/mustache/mustache.min.js\" async ></script>";
-		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/jquery/confirm/jquery-confirm.min.js\" async ></script>";
+		content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/jquery/confirm/jquery-confirm.min.js\" async ></script>";
 		
-		//content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/css/jquery/confirm/jquery-confirm.min.css\" >";
-		//content += "<link rel=\"stylesheet\" href=\"//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css\">";
-		//content += "<script charset=\"utf-8\" src=\"https://code.jquery.com/ui/1.13.1/jquery-ui.js\"></script>";
+		content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/css/jquery/confirm/jquery-confirm.min.css\" >";
+		content += "<link rel=\"stylesheet\" href=\"//code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css\">";
+		content += "<script charset=\"utf-8\" src=\"https://code.jquery.com/ui/1.14.1/jquery-ui.js\"></script>";
 		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/station-x.js\" ></script>";
 		//content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/css/station-x.css\">";
 		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/lodash.js\"></script>";
@@ -51,8 +51,8 @@ public class StationXTopJSDynamicInclude extends BaseDynamicInclude {
 		content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/fancy-file-uploader/jquery.iframe-transport.js\"></script>";
 		content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/fancy-file-uploader/jquery.fancy-fileupload.js\"></script>";
 		*/
-		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/dynamic-popup-menu/popmenu.js\"></script>";
-		//content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/js/dynamic-popup-menu/popmenu.css\">";
+		content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/dynamic-popup-menu/popmenu.js\"></script>";
+		content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/js/dynamic-popup-menu/popmenu.css\">";
 		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/multi-select/jquery.multi-select.js\"></script>";
 		//content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/js/multi-select/multi-select.css\">";
 		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/simple-pagenation/jquery.simplePagination.js\"></script>";
