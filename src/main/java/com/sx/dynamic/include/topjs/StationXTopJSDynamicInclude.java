@@ -37,7 +37,7 @@ public class StationXTopJSDynamicInclude extends BaseDynamicInclude {
 		content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/css/jquery/confirm/jquery-confirm.min.css\" >";
 		content += "<link rel=\"stylesheet\" href=\"//code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css\">";
 		content += "<script charset=\"utf-8\" src=\"https://code.jquery.com/ui/1.14.1/jquery-ui.js\"></script>";
-		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/station-x.js\" ></script>";
+		content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/station-x-system.js\" ></script>";
 		//content += "<link rel=\"stylesheet\" href=\"/o/com.sx.dynamic.include/css/station-x.css\">";
 		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/lodash.js\"></script>";
 		//content += "<script charset=\"utf-8\" src=\"/o/com.sx.dynamic.include/js/zTree/js/jquery.ztree.all.js\"></script>";
