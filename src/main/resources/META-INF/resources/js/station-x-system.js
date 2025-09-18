@@ -26,6 +26,7 @@ const SXSystem ={
 			return Liferay.ThemeDisplay.getDefaultLanguageId().replace(/_/g, "-");
 	},
 	getAvailableLanguages: function(){
-		return Object.keys(Liferay.localization.available).map(lang=>lang.replace(/_/g, "-"));
+		console.log("SXSystem: ", Liferay);
+		return Object.keys(Liferay.Language.available).map(lang=>lang.replace(/_/g, "-"));
 	}
 };
