@@ -2,7 +2,7 @@ const SXSystem ={
 	loadStartPortletModuleScript: (srcUrl)=>{
 		const oldScript = document.querySelector(`script[src^="${srcUrl}"]`);
 		if (oldScript){
-			console.log("Old script removed...");
+			//console.log("Old script removed...");
 			oldScript.remove();
 		}
 		
