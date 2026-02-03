@@ -1,5 +1,5 @@
 Bundle-Name: StationXDynamicInclude
 Bundle-SymbolicName: com.sx.dynamic.include
-Bundle-Version: 2.1.2
+Bundle-Version: 2.2.0
 Web-ContextPath: /com.sx.dynamic.include
 Export-Package: com.sx.dynamic.include.topjs.constants
